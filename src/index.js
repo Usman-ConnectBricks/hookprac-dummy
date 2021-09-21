@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+
+
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+// import memoizedCallback from './App';
+import DataFetching from './DataFetching';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <DataFetching/>
   </React.StrictMode>,
   document.getElementById('root')
 );
